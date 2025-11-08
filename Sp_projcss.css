@@ -1,0 +1,243 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #291012;
+      color: white;
+      text-align: center;
+      padding: 2.5rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+
+    nav {
+      background-color: #3b1e1f;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      
+    }
+
+    nav a {
+      color: #e2e8f0;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      color: #e24a93;
+    }
+
+
+    .inventors {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      padding: 3rem 2rem;
+    }
+    .card {
+
+      border-radius: 10px;
+      overflow: hidden;
+      /* box-shadow: 0 3px 8px rgba(0,0,0,0.1); */
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: scale(1.03);
+      transition: transform 0.3s ease;
+      box-shadow: 1px 1px 10px rgb(252, 0, 13), 1px 1px 10px rgb(155, 3, 155);
+    }
+
+    .card img {
+        
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .card h2 {
+        color: rgb(186, 68, 88);
+
+      margin-top: 1rem;
+    }
+
+    .card p {
+
+      color: #e410cb;
+      padding: 0.8rem 1.2rem 1.5rem;
+      font-size: 0.95rem;
+    }
+
+
+    .timeline {
+      background-color: #cd7f90;
+      padding: 2rem;
+    }
+
+    .timeline h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #0f172a;
+    }
+
+    .timeline ul {
+      list-style: none;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .timeline li {
+      background: white;
+      margin: 1rem 0;
+      padding: 1rem 1.5rem;
+      border-left: 5px solid #2563eb;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .timeline strong {
+      color: #50191a;
+    }
+
+
+    .table-section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      border: 1px solid #cbd5e1;
+      padding: 12px;
+    }
+
+    th {
+      background-color: #e2e8f0;
+    }
+
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+
+
+    .modern {
+      background-color: #f8fafc;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .modern h2 {
+color:#d9479a;
+      margin-bottom: 1.5rem;
+    }
+
+    .modern .innovators {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .innovator {
+      background: white;
+      border-radius: 10px;
+      width: 300px;
+      padding: 1.5rem;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      text-align: left;
+     
+    }
+    .innovator:hover {
+      transform: scale(1.03);
+      transition: transform 0.3s ease;
+      box-shadow: 1px 1px 10px rgb(252, 0, 13), 1px 1px 10px rgb(155, 3, 155);
+    }   
+
+
+    .innovator h3 {
+color: rgb(186, 68, 88);
+      margin-bottom: 0.5rem;
+    }
+
+    .innovator p {
+      color: #c93a95;
+    }
+
+
+    form {
+      background-color: white;
+      max-width: 500px;
+      margin: 3rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    form h3 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #0f172a;
+    }
+
+    label {
+      display: block;
+      margin: 0.5rem 0 0.2rem;
+      font-weight: 500;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 0.6rem;
+      border: 1px solid #cbd5e1;
+      border-radius: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      margin-top: 1rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #d9479a;
+    }
+
+    footer {
+      background-color: #3b1e1f;
+      color: #cbd5e1;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
